@@ -33,7 +33,7 @@
     $("#but").bind("click",function () {
         $.ajax({
             type:"get",
-            url:"./json/posts",
+            url:"./json/posts.json",
             datatype:"json",
             success:function (data,textstatus) {
                 console.log(data);
