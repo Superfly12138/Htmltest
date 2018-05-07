@@ -33,7 +33,7 @@
     $("#but").bind("click",function () {
         $.ajax({
             type:"get",
-            url:"https://aiicy.com/api/v2/posts",
+            url:"./json/posts.json",
             datatype:"json",
             success:function (data,textstatus) {
                 console.log(data);
